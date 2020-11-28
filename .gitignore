@@ -1,1 +1,6 @@
-styles/style.scss
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
