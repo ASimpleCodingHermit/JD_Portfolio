@@ -8,15 +8,31 @@ nav {
   min-height: 10vh;
   width: 60%;
   flex-wrap: wrap;
-  .logo{
+  .logo {
     @include flex(flex-start, center, row);
     flex: 1 1 10rem;
-    h1{
+    h1 {
       margin: 2rem;
     }
   }
-  ul{
+  ul {
     @include flex(space-around, center, row);
     flex: 1 1 40rem;
   }
+}
+
+.intro {
+  height: 90vh;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  @include flex(space-between, center, row);
+}
+
+.splash {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 100%;
+  z-index: -1;
 }
