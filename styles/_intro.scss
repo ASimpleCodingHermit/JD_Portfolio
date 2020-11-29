@@ -53,14 +53,14 @@ nav {
   z-index: -1;
 }
 
-.intro-social{
+.intro-social {
   margin-top: 4rem;
-  a{
+  a {
     margin-right: 5rem;
   }
 }
 
-.active{
+.active {
   background: $grey-text;
   padding: 1rem 3rem;
   border-radius: 3rem;
@@ -69,4 +69,31 @@ nav {
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
   color: white;
+}
+
+.intro-text,
+.intro-images {
+  flex: 1 1 40rem;
+}
+
+#plant-left {
+  animation: leaf 1.5s ease infinite alternate;
+  -webkit-animation: leaf 1.5s ease infinite alternate;
+}
+#plant-right {
+  animation: leaf 1.5s ease infinite alternate 0.5s;
+  -webkit-animation: leaf 1.5s ease infinite alternate 0.5s;
+}
+
+#me {
+  animation: me 1.5s ease infinite alternate;
+  -webkit-animation: me 1.5s ease infinite alternate;
+  transform-origin: bottom;
+}
+
+#clock-arrow {
+  animation: clock 1.5s linear infinite;
+  -webkit-animation: clock 1.5s linear infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
 }

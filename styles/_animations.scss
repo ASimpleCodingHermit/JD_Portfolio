@@ -1,0 +1,52 @@
+@keyframes leaf {
+  from {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-30%);
+    -webkit-transform: translateY(-30%);
+    -moz-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    -o-transform: translateY(-30%);
+    opacity: 0;
+  }
+}
+
+@keyframes me {
+  from {
+    transform: rotateZ(-5deg);
+    -webkit-transform: rotateZ(-5deg);
+    -moz-transform: rotateZ(-5deg);
+    -ms-transform: rotateZ(-5deg);
+    -o-transform: rotateZ(-5deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+    -webkit-transform: rotateZ(5deg);
+    -moz-transform: rotateZ(5deg);
+    -ms-transform: rotateZ(5deg);
+    -o-transform: rotateZ(5deg);
+  }
+}
+
+@keyframes clock {
+  from {
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+}
+  to {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360);
+    -moz-transform: rotateZ(360);
+    -ms-transform: rotateZ(360);
+    -o-transform: rotateZ(360);
+  }
+}
