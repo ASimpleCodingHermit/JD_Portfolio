@@ -4,4 +4,12 @@
 *.css.map
 *.sass.map
 *.scss.map
-*.scss
+styles/_animations.scss
+_contact.scss
+_footer.scss
+_global.scss
+_footer.scss
+_mediaQueries.scss
+_projects.scss
+style.scss
+
